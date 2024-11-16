@@ -69,46 +69,56 @@ internal class Program
         #endregion
 
         #region Dictionary
-        Dictionary<string, string> dic = new Dictionary<string, string>();
-        //thêm value
-        dic.Add("Nguyễn", "Thìn");
-        dic["Trần"] = "Yến";
+        //     Dictionary<string, string> dic = new Dictionary<string, string>();
+        //     //thêm value
+        //     dic.Add("Nguyễn", "Thìn");
+        //     dic["Trần"] = "Yến";
 
-        //duyệt dictionary
-        foreach (KeyValuePair<string, string> pointer in dic)
-        {
-            // pointer: key-value
-            Console.WriteLine($"Họ: {pointer.Key}, Tên: {pointer.Value}");
-        }
-        //Chỉ duyệt mỗi keey hoặc value ==> y chang bên List
-        //Chỉ duyệt key
-        //Cách 1:
-        Console.WriteLine($"Danh sách test key là: ");
-        foreach (string str in dic.Keys)
-        {
-            Console.WriteLine(str);
-        }
-        //Cách 2:
-        // for (int i = 0; i < dic.Keys.Count; i++)
-        // {
-        //     Console.WriteLine(dic.Keys.ElementAt(i));
-        // }
+        //     //duyệt dictionary
+        //     foreach (KeyValuePair<string, string> pointer in dic)
+        //     {
+        //         // pointer: key-value
+        //         Console.WriteLine($"Họ: {pointer.Key}, Tên: {pointer.Value}");
+        //     }
+        //     //Chỉ duyệt mỗi keey hoặc value ==> y chang bên List
+        //     //Chỉ duyệt key
+        //     //Cách 1:
+        //     Console.WriteLine($"Danh sách test key là: ");
+        //     foreach (string str in dic.Keys)
+        //     {
+        //         Console.WriteLine(str);
+        //     }
+        //     //Cách 2:
+        //     // for (int i = 0; i < dic.Keys.Count; i++)
+        //     // {
+        //     //     Console.WriteLine(dic.Keys.ElementAt(i));
+        //     // }
 
-        // update value cho dic
-        dic["Nguyễn"] = "Trọng";
-        Console.WriteLine("dic sau khi update: ");
-        foreach (KeyValuePair<string, string> kvp in dic)
-        {
-            Console.WriteLine($"Họ: {kvp.Key}, Tên: {kvp.Value}");
-        }
+        //     // update value cho dic
+        //     dic["Nguyễn"] = "Trọng";
+        //     Console.WriteLine("dic sau khi update: ");
+        //     foreach (KeyValuePair<string, string> kvp in dic)
+        //     {
+        //         Console.WriteLine($"Họ: {kvp.Key}, Tên: {kvp.Value}");
+        //     }
 
-        //xóa key-value trong dic
-        dic.Remove("Nguyễn");
-        Console.WriteLine("dic sau khi xóa: ");
-        foreach (KeyValuePair<string, string> kvp in dic)
-        {
-            Console.WriteLine($"Họ: {kvp.Key}, Tên: {kvp.Value}");
-        }
+        //     //xóa key-value trong dic
+        //     dic.Remove("Nguyễn");
+        //     Console.WriteLine("dic sau khi xóa: ");
+        //     foreach (KeyValuePair<string, string> kvp in dic)
+        //     {
+        //         Console.WriteLine($"Họ: {kvp.Key}, Tên: {kvp.Value}");
+        //     }
+        #endregion
+
+        #region tính điểm tb
+        // Bai1.inChuSoNgTo("4689");
+        // Bai1.Prime(20);
+        // Bai1.doDaiTuCuoiChuoi("hello world thìn");
+        // Bai1.tachChuoi("I loveeeeeee progamming morningggg");
+        // Bai1.xoaKyTu("He@llo! worl#d jhafkjshwf hh 4%$ #jk");
+        // Bai1.tachChuoiCoSo("i1 love4 you3");
+        Bai1.reverse("aabbcc bbaacc ccaabb");
         #endregion
     }
 }
