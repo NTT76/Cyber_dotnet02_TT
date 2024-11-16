@@ -1,0 +1,15 @@
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\Baitap_ss8\obj\Debug\net8.0\Baitap_ss8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\Baitap_ss8\obj\Debug\net8.0\Baitap_ss8.AssemblyInfoInputs.cache
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\Baitap_ss8\obj\Debug\net8.0\Baitap_ss8.AssemblyInfo.cs
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\Baitap_ss8\obj\Debug\net8.0\Baitap_ss8.csproj.CoreCompileInputs.cache
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\Baitap_ss8\obj\Debug\net8.0\Baitap_ss8.sourcelink.json
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\Baitap_ss8\bin\Debug\net8.0\Baitap_ss8.exe
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\Baitap_ss8\bin\Debug\net8.0\Baitap_ss8.deps.json
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\Baitap_ss8\bin\Debug\net8.0\Baitap_ss8.runtimeconfig.json
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\Baitap_ss8\bin\Debug\net8.0\Baitap_ss8.dll
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\Baitap_ss8\bin\Debug\net8.0\Baitap_ss8.pdb
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\Baitap_ss8\obj\Debug\net8.0\Baitap_ss8.dll
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\Baitap_ss8\obj\Debug\net8.0\refint\Baitap_ss8.dll
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\Baitap_ss8\obj\Debug\net8.0\Baitap_ss8.pdb
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\Baitap_ss8\obj\Debug\net8.0\Baitap_ss8.genruntimeconfig.cache
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\Baitap_ss8\obj\Debug\net8.0\ref\Baitap_ss8.dll
