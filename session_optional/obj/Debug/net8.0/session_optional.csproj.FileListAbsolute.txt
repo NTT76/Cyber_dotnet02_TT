@@ -1,0 +1,15 @@
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session_optional\obj\Debug\net8.0\session_optional.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session_optional\obj\Debug\net8.0\session_optional.AssemblyInfoInputs.cache
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session_optional\obj\Debug\net8.0\session_optional.AssemblyInfo.cs
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session_optional\obj\Debug\net8.0\session_optional.csproj.CoreCompileInputs.cache
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session_optional\obj\Debug\net8.0\session_optional.sourcelink.json
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session_optional\bin\Debug\net8.0\session_optional.exe
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session_optional\bin\Debug\net8.0\session_optional.deps.json
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session_optional\bin\Debug\net8.0\session_optional.runtimeconfig.json
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session_optional\bin\Debug\net8.0\session_optional.dll
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session_optional\bin\Debug\net8.0\session_optional.pdb
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session_optional\obj\Debug\net8.0\session_optional.dll
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session_optional\obj\Debug\net8.0\refint\session_optional.dll
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session_optional\obj\Debug\net8.0\session_optional.pdb
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session_optional\obj\Debug\net8.0\session_optional.genruntimeconfig.cache
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session_optional\obj\Debug\net8.0\ref\session_optional.dll
