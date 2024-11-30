@@ -1,0 +1,15 @@
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session10_kethua\bin\Debug\net8.0\session10_kethua.exe
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session10_kethua\bin\Debug\net8.0\session10_kethua.deps.json
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session10_kethua\bin\Debug\net8.0\session10_kethua.runtimeconfig.json
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session10_kethua\bin\Debug\net8.0\session10_kethua.dll
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session10_kethua\bin\Debug\net8.0\session10_kethua.pdb
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session10_kethua\obj\Debug\net8.0\session10_kethua.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session10_kethua\obj\Debug\net8.0\session10_kethua.AssemblyInfoInputs.cache
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session10_kethua\obj\Debug\net8.0\session10_kethua.AssemblyInfo.cs
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session10_kethua\obj\Debug\net8.0\session10_kethua.csproj.CoreCompileInputs.cache
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session10_kethua\obj\Debug\net8.0\session10_kethua.sourcelink.json
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session10_kethua\obj\Debug\net8.0\session10_kethua.dll
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session10_kethua\obj\Debug\net8.0\refint\session10_kethua.dll
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session10_kethua\obj\Debug\net8.0\session10_kethua.pdb
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session10_kethua\obj\Debug\net8.0\session10_kethua.genruntimeconfig.cache
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session10_kethua\obj\Debug\net8.0\ref\session10_kethua.dll
