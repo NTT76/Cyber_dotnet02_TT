@@ -1,0 +1,23 @@
+[
+  {
+    "maHS": "a1",
+    "tenHS": "dinh huyen",
+    "toan": 7,
+    "van": 8,
+    "anh": 9
+  },
+  {
+    "maHS": "a2",
+    "tenHS": "trong a",
+    "toan": 4,
+    "van": 5,
+    "anh": 6
+  },
+  {
+    "maHS": "a3",
+    "tenHS": "nhu quynh",
+    "toan": 6,
+    "van": 7,
+    "anh": 8
+  }
+]
