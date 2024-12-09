@@ -35,6 +35,7 @@ class Classroom
             else
             {
                 Console.WriteLine($"Không tìm thấy học sinh nào tên {name}");
+                break;
             }
         }
     }
@@ -75,12 +76,12 @@ class Classroom
             else { Console.WriteLine("Đã cập nhật điểm"); }
         }
     }
-    public void diemTB(string name)
+    public void diemTBvaHocLuc(string name)
     {
         foreach (HocSinh hocSinh in hs)
         {
-            double diemTB = (hocSinh.toan + hocSinh.van + hocSinh.anh) / 3;
-            if (String.Compare(name, hocSinh.tenHS, true) == 0)
+            double diemTB = hocSinh.diemTB;
+            if (hocSinh.tenHS == name)
             {
                 if (diemTB >= 8 && diemTB <= 10)
                 {
@@ -110,15 +111,13 @@ class Classroom
     {
         for (int i = 0; i < hs.Count; i++)
         {
-            int check = 0;
-            if (String.Compare(name, hs[i].tenHS, true) == 0)
+            if (hs[i].tenHS == name)
             {
                 hs.RemoveAt(i);
                 Console.WriteLine("xóa thành công");
-                check = 1;
                 break;
             }
-            if (check == 0)
+            else
             {
                 Console.WriteLine("Không tồn tại học sinh này");
                 break;
@@ -132,7 +131,7 @@ class Classroom
         Dictionary<string, string> hocLucHS = new Dictionary<string, string>();
         foreach (HocSinh hocSinh in hs)
         {
-            double diemTB = (hocSinh.toan + hocSinh.van + hocSinh.anh) / 3;
+            double diemTB = hocSinh.diemTB;
             string hocLuc;
             if (diemTB >= 8 && diemTB <= 10)
             {
@@ -160,33 +159,18 @@ class Classroom
 
     public void hienThiTheoDiemTB()
     {
-        SortedDictionary<double, string> sapXepTheoDiemTB = new SortedDictionary<double, string>();
-        foreach (HocSinh hocSinh in hs)
+        List<HocSinh> result = hs.OrderBy(p => p.diemTB).ToList();
+        foreach (HocSinh h in result)
         {
-            double diemTB = (hocSinh.toan + hocSinh.van + hocSinh.anh) / 3;
-            sapXepTheoDiemTB.Add(diemTB, hocSinh.tenHS);
-        }
-        foreach (KeyValuePair<double, string> key in sapXepTheoDiemTB)
-        {
-            Console.WriteLine($"Học sinh {key.Value} có điểm trung bình {key.Key}");
+            h.xuatThongTin();
         }
     }
     public void hienThiTheoTenHS()
     {
-        List<string> list = new List<string>();
+        List<HocSinh> list = hs.OrderBy(p => p.tenHS).ToList();
         foreach (HocSinh hocSinh in hs)
         {
-            string[] str = hocSinh.tenHS.Split(' ');
-            for (int i = str.Length - 1; i >= 0; i--)
-            {
-                list.Add(str[i]);
-                break;
-            }
-        }
-        list.Sort();
-        foreach (string str2 in list)
-        {
-            Console.WriteLine($"{str2}");
+            hocSinh.xuatThongTin();
         }
     }
     public void ghiDuLieu()

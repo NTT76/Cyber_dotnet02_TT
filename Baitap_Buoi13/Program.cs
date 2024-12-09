@@ -54,7 +54,7 @@ internal class Program
                         case 4:
                             Console.WriteLine("Nhập tên học sinh cần tính điểm trung bình: ");
                             string name3 = Console.ReadLine();
-                            classroom.diemTB(name3); break;
+                            classroom.diemTBvaHocLuc(name3); break;
                         case 5:
                             Console.WriteLine("Nhập tên học sinh cần xóa: ");
                             string name5 = Console.ReadLine();

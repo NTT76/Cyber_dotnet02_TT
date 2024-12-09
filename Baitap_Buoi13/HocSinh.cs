@@ -17,4 +17,8 @@ class HocSinh
     {
         Console.WriteLine($"Mã học sinh: {maHS}, tên học sinh: {tenHS}, điểm toán: {toan}, điểm văn: {van}, điểm anh: {anh}");
     }
+    public double diemTB
+    {
+        get { return (toan + van + anh) / 3; }
+    }
 }

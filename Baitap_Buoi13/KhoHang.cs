@@ -122,60 +122,46 @@ class KhoHang
         }
     }
 
-    public void sapXepSPTheoGiaBan()
+    public List<SanPham> sapXepSPTheoGiaBan()
     {
-        SortedDictionary<double, string> sapXepGiaBanTang = new SortedDictionary<double, string>();
-        foreach (SanPham sanPham in sp)
-        {
-            double tong = sanPham.giaBan * sanPham.soLuong;
-            sapXepGiaBanTang.Add(tong, sanPham.tenSP);
-        }
+        List<SanPham> lst = sp.OrderBy(p => p.giaBan).ToList();
+        return lst;
     }
     public void hienThiTheoGiaBanTang()
     {
-        // Dictionary<double, string> sapXep = sapXepSPTheoGiaBan().sapXepGiaBanTang;
-        SortedDictionary<double, string> sapXepGiaBanTang = new SortedDictionary<double, string>();
+        List<SanPham> lst = sp.OrderBy(p => p.giaBan).ToList();
         foreach (SanPham sanPham in sp)
         {
-            double tong = sanPham.giaBan * sanPham.soLuong;
-            sapXepGiaBanTang.Add(tong, sanPham.tenSP);
-        }
-        foreach (KeyValuePair<double, string> key in sapXepGiaBanTang)
-        {
-            Console.WriteLine($"{key.Value}: {key.Key}");
+            sanPham.xuatThongTin();
         }
     }
-    public void sapXepTheoTenSP()
+    public List<SanPham> sapXepTheoTenSP()
     {
-        List<string> list = new List<string>();
-        foreach (SanPham sanPham in sp)
-        {
-            string[] str = sanPham.tenSP.Split(' ');
-            for (int i = str.Length - 1; i >= 0; i--)
-            {
-                list.Add(str[i]);
-                break;
-            }
-        }
-        list.Sort();
+        List<SanPham> lst = sp.OrderBy(p => p.giaBan).ToList();
+        return lst;
     }
     public void hienThiTheoTenSP()
     {
-        List<string> list = new List<string>();
-        foreach (SanPham sanPham in sp)
+        List<SanPham> lst = sp.OrderBy(p => p.giaBan).ToList();
+        foreach (SanPham p in lst)
         {
-            string[] str = sanPham.tenSP.Split(' ');
-            for (int i = str.Length - 1; i >= 0; i--)
-            {
-                list.Add(str[i]);
-                break;
-            }
+            p.xuatThongTin();
         }
-        list.Sort();
-        foreach (string str2 in list)
-        {
-            Console.WriteLine($"{str2}");
-        }
+        // List<string> list = new List<string>();
+        // foreach (SanPham sanPham in sp)
+        // {
+        //     string[] str = sanPham.tenSP.Split(' ');
+        //     for (int i = str.Length - 1; i >= 0; i--)
+        //     {
+        //         list.Add(str[i]);
+        //         break;
+        //     }
+        // }
+        // list.Sort();
+        // foreach (string str2 in list)
+        // {
+        //     Console.WriteLine($"{str2}");
+        // }
     }
     public void ghiFileJson()
     {
