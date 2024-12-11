@@ -1,0 +1,18 @@
+[
+  {
+    "subject": "Toan",
+    "grade": "10",
+    "bookId": "1",
+    "bookName": "toan",
+    "author": "BGD",
+    "price": 30000.0
+  },
+  {
+    "subject": "tham khao toan",
+    "grade": "10",
+    "bookId": "2",
+    "bookName": "luyen de",
+    "author": "abc",
+    "price": 90000.0
+  }
+]
