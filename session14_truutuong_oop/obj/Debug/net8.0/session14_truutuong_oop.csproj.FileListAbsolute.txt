@@ -1,0 +1,15 @@
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session14_truutuong_oop\bin\Debug\net8.0\session14_truutuong_oop.exe
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session14_truutuong_oop\bin\Debug\net8.0\session14_truutuong_oop.deps.json
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session14_truutuong_oop\bin\Debug\net8.0\session14_truutuong_oop.runtimeconfig.json
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session14_truutuong_oop\bin\Debug\net8.0\session14_truutuong_oop.dll
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session14_truutuong_oop\bin\Debug\net8.0\session14_truutuong_oop.pdb
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session14_truutuong_oop\obj\Debug\net8.0\session14_truutuong_oop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session14_truutuong_oop\obj\Debug\net8.0\session14_truutuong_oop.AssemblyInfoInputs.cache
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session14_truutuong_oop\obj\Debug\net8.0\session14_truutuong_oop.AssemblyInfo.cs
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session14_truutuong_oop\obj\Debug\net8.0\session14_truutuong_oop.csproj.CoreCompileInputs.cache
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session14_truutuong_oop\obj\Debug\net8.0\session14_truutuong_oop.sourcelink.json
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session14_truutuong_oop\obj\Debug\net8.0\session14_truutuong_oop.dll
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session14_truutuong_oop\obj\Debug\net8.0\refint\session14_truutuong_oop.dll
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session14_truutuong_oop\obj\Debug\net8.0\session14_truutuong_oop.pdb
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session14_truutuong_oop\obj\Debug\net8.0\session14_truutuong_oop.genruntimeconfig.cache
+C:\Users\PCM\Desktop\TT\cyber_dotnet_tt\Cyber_dotnet02_TT\session14_truutuong_oop\obj\Debug\net8.0\ref\session14_truutuong_oop.dll

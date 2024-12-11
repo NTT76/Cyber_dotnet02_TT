@@ -1,0 +1,4 @@
+interface IWifi
+{
+    bool hashWifi();
+}
