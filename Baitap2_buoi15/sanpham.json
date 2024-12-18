@@ -1,0 +1,26 @@
+{
+  "$type": "System.Collections.Generic.List`1[[SanPham, Baitap2-buoi15]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "DienTu, Baitap2-buoi15",
+      "MaSP": "1",
+      "TenSP": "Laptop asus",
+      "GiaGoc": 1000.0,
+      "GiaBan": 1080.0
+    },
+    {
+      "$type": "ThoiTrang, Baitap2-buoi15",
+      "MaSP": "2",
+      "TenSP": "ao thun trang",
+      "GiaGoc": 200.0,
+      "GiaBan": 194.0
+    },
+    {
+      "$type": "ThucPham, Baitap2-buoi15",
+      "MaSP": "3",
+      "TenSP": "gao trang",
+      "GiaGoc": 300.0,
+      "GiaBan": 310.0
+    }
+  ]
+}
