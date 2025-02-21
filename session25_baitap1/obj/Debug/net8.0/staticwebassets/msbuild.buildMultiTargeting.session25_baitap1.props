@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\session25_baitap1.props" />
+</Project>

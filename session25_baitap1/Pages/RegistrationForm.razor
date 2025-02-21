@@ -1,0 +1,90 @@
+@page "/registration"
+
+<h1>Course Registration Form</h1>
+
+<EditForm Model="registrationModel" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <div class="container">
+        <div class="d-flex">
+            <div class="form-container w-50">
+                <div class="form-group">
+                    <label>Full name</label>
+                    <input @bind="registrationModel.FullName" class="form-control">
+                    <ValidationMessage For="@(() => registrationModel.FullName)" />
+                </div>
+
+                <div class="form-group">
+                    <label>Email</label>
+                    <input @bind="registrationModel.Email" class="form-control">
+                    <ValidationMessage For="@(() => registrationModel.Email)" />
+                </div>
+
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input @bind="registrationModel.Phone" class="form-control">
+                    <ValidationMessage For="@(() => registrationModel.Phone)" />
+                </div>
+
+                <div class="form-group">
+                    <label>Select Course</label>
+                    <select @bind="registrationModel.Course" class="form-control">
+                        <option value="">Choose.....</option>
+                        <option value="Course1">Course 1</option>
+                        <option value="Course2">Course 2</option>
+                        <option value="Course3">Course 3</option>
+                    </select>
+                    <ValidationMessage For="@(() => registrationModel.Phone)" />
+                </div>
+
+                <div class="form-group">
+                    <label @bind="registrationModel.StudyMode">Study Mode</label>
+                    <div>
+                        <input type="radio">
+                        <label>Online</label>
+
+                        <input type="radio">
+                        <label>Offline</label>
+                    </div>
+                    <ValidationMessage For="@(() => registrationModel.StudyMode)" />
+                </div>
+
+                <div class="form-group">
+                    <label>Preferred Start Date</label>
+                    <input @bind="registrationModel.StartDate" class="form-control">
+                    <ValidationMessage For="@(() => registrationModel.StartDate)" />
+                </div>
+
+                <div class="form-group">
+                    <label>Comments or Notes</label>
+                    <input @bind="registrationModel.Comments" class="form-control">
+                    <ValidationMessage For="@(() => registrationModel.Comments)" />
+                </div>
+
+                <div>
+                    <InputCheckbox @bind-Value="registrationModel.Submitting" /> I agree to the terms and conditions *
+                    <ValidationMessage For="() => registrationModel.Submitting" />
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+            </div>
+            <div class="form-information w-50">
+                <p><strong>Fullname:</strong>@registrationModel.FullName</p>
+                <p><strong>Email:</strong>@registrationModel.Email</p>
+                <p><strong>Phone:</strong>@registrationModel.Phone</p>
+                <p><strong>Course:</strong>@registrationModel.Course</p>
+                <p><strong>StudyMode:</strong>@registrationModel.StudyMode</p>
+                <p><strong>StartDate:</strong>@registrationModel.StartDate</p>
+                <p><strong>Comments:</strong>@registrationModel.Comments</p>
+            </div>
+        </div>
+    </div>
+</EditForm>
+
+@code {
+    private RegistrationModel registrationModel = new RegistrationModel();
+
+    private void HandleValidSubmit()
+    {
+        Console.WriteLine("Course registration submitted successfully!");
+    }
+
+}
