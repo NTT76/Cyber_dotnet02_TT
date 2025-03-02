@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\PCM\\Desktop\\TT\\cyber_dotnet_tt\\Cyber_dotnet02_TT\\session24_bt\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\PCM\\Desktop\\TT\\cyber_dotnet_tt\\Cyber_dotnet02_TT\\session24_bt\\obj\\Debug\\net8.0\\compressed\\44lzrbyws4.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\PCM\\Desktop\\TT\\cyber_dotnet_tt\\Cyber_dotnet02_TT\\session24_bt\\obj\\Debug\\net8.0\\scopedcss\\bundle\\session24_bt.styles.css",
+      "PackagePath": "staticwebassets\\session24_bt.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\PCM\\Desktop\\TT\\cyber_dotnet_tt\\Cyber_dotnet02_TT\\session24_bt\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\PCM\\Desktop\\TT\\cyber_dotnet_tt\\Cyber_dotnet02_TT\\session24_bt\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PCM\\Desktop\\TT\\cyber_dotnet_tt\\Cyber_dotnet02_TT\\session24_bt\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PCM\\Desktop\\TT\\cyber_dotnet_tt\\Cyber_dotnet02_TT\\session24_bt\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\PCM\\Desktop\\TT\\cyber_dotnet_tt\\Cyber_dotnet02_TT\\session24_bt\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\PCM\\Desktop\\TT\\cyber_dotnet_tt\\Cyber_dotnet02_TT\\session24_bt\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\PCM\\Desktop\\TT\\cyber_dotnet_tt\\Cyber_dotnet02_TT\\session24_bt\\wwwroot\\profile.jpg",
+      "PackagePath": "staticwebassets\\profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PCM\\Desktop\\TT\\cyber_dotnet_tt\\Cyber_dotnet02_TT\\session24_bt\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.session24_bt.props",
+      "PackagePath": "build\\session24_bt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.session24_bt.props",
+      "PackagePath": "buildMultiTargeting\\session24_bt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.session24_bt.props",
+      "PackagePath": "buildTransitive\\session24_bt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.session24_bt.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
