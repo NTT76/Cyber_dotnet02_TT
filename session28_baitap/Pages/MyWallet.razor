@@ -1,0 +1,76 @@
+@page "/my-wallet"
+
+@using System.Globalization
+<div class="card text-white bg-dark">
+    <h3 class="text-center">My Wallet</h3>
+    <h4 class="text-warning text-center">@balance.ToString("C", CultureInfo.CurrentCulture)</h4>
+    <p class="text-center">Total Balance</p>
+
+    <div class="text-center">
+        <button class="btn btn-success mx-2" @onclick="() => OpenModal(true)">Deposit</button>
+        <button class="btn btn-danger mx-2" @onclick="() => OpenModal(false)">Withdraw</button>
+    </div>
+
+    <h5 class="text-center">Transaction History</h5>
+    <div class="form-group mx-4">
+        <div class="d-flex align-items-end justify-content-center">
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Type</th>
+                    <th>Amount</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (transactions != null && transactions.Count > 0)
+                {
+                    @foreach (var transaction in transactions)
+                    {
+                        <tr class="@(@transaction.Type == "Deposit" ? "table-success" : "table-danger")">
+                            <td>@transaction.Type</td>
+                            <td>@transaction.Amount.ToString("C", CultureInfo.CurrentCulture)</td>
+                            <td>@transaction.Time.ToString("g")</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<ModalWallet IsOpen="isModalOpen" OnClose="CloseModal" OnConfirm="HandleTransaction" IsDeposit="isDeposit" />
+
+@code {
+    private decimal balance = 2500m;
+    private List<WalletTransaction> transactions = new();
+    private bool isModalOpen = false;
+    private bool isDeposit;
+
+    private void OpenModal(bool deposit)
+    {
+        isDeposit = deposit;
+        isModalOpen = true;
+    }
+
+    private void CloseModal()
+    {
+        isModalOpen = false;
+    }
+
+    private void HandleTransaction(decimal amount)
+    {
+        if (isDeposit)
+        {
+            balance += amount;
+            transactions.Add(new WalletTransaction("Deposit", amount, DateTime.Now));
+        }
+        else if (amount > 0 && amount <= balance)
+        {
+            balance -= amount;
+            transactions.Add(new WalletTransaction("Withdraw", amount, DateTime.Now));
+        }
+
+        CloseModal();
+    }
+}

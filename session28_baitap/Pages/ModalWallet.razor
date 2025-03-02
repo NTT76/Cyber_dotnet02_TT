@@ -1,0 +1,38 @@
+@code {
+    [Parameter] public bool IsOpen { get; set; }
+    [Parameter] public EventCallback OnClose { get; set; }
+    [Parameter] public EventCallback<decimal> OnConfirm { get; set; }
+    [Parameter] public bool IsDeposit { get; set; }
+
+    private decimal amount;
+
+    private async Task Confirm()
+    {
+        if (amount > 0)
+        {
+            await OnConfirm.InvokeAsync(amount);
+            await OnClose.InvokeAsync(); // Đóng modal sau khi xác nhận
+        }
+    }
+}
+
+@if (IsOpen)
+{
+    <div class="modal show d-block">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">@(IsDeposit ? "Deposit Money" : "Withdraw Money")</h5>
+                    <button type="button" class="close" @onclick="() => OnClose.InvokeAsync()">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <input type="number" class="form-control" @bind="amount" min="1" />
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" @onclick="OnClose">Close</button>
+                    <button class="btn btn-primary" @onclick="Confirm">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
